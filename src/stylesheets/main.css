@@ -460,6 +460,7 @@ body {
     .small-hero {
         width: 100vw;
         overflow: hidden;
+        margin: 50px auto;
     }
 
     .login-container {
@@ -467,6 +468,28 @@ body {
     }
 
     .inner-login-container {
-        width: 100%;
+        width: calc(100% - 2em);
+    }
+
+    .inner-login-container .login-header {
+        margin-top: 1em;
+        font-size: 2em;
+        font-weight: 600;
+        padding: 0;
+    }
+    
+    .inner-login-container .login-statement {
+        margin: 0.8em 0 3.5em 0;
+        font-size: 0.9em;
+        font-weight: 500;
+        padding: 0;
+    }
+    
+    .inner-login-container .input-container {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+    
+        outline: var(--scaffold);
     }
 }
