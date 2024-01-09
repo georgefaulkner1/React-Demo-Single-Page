@@ -89,8 +89,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border: 1px solid red;
 }
 
 .inner-small-header {
@@ -454,12 +452,10 @@ body {
         width: 100vw;
         margin: 0;
         padding: 0;
-
-        outline: 1px solid black;
     }
 
     .inner-small-header {
-        padding: 0;
+        padding: 0 1em 0 1em;
     }
 
     .small-hero {
