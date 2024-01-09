@@ -423,7 +423,6 @@ body {
     height: 24px;
 }
 
-
 @keyframes animateSquare {
     
     0% {
@@ -463,7 +462,11 @@ body {
         overflow: hidden;
     }
 
-    .login-container, .inner-login-container {
-        width: 100vw;
+    .login-container {
+        width: calc(100vw - 2em);
+    }
+
+    .inner-login-container {
+        width: 100%;
     }
 }
